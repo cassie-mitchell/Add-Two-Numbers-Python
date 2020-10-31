@@ -1,0 +1,11 @@
+number1 = input("Enter first number:")
+# the input function takes a prompt as a parameter which it outputs to the console to prompt the user for input. The user input is stored in the variable number1
+
+number2 = input("Enter second number:")
+# get the second number
+
+sum = float(number1) + float(number2)
+# add the two variables and put them in the variable sum. As the variables don’t have a type and the + only works on numbers, we have to state that the variables contain numbers (in this case floats)
+
+print("The sum of these numbers is {0}".format(sum))
+# print to console by returning a formatted string
